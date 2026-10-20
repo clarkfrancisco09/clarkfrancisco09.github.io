@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Www:zuise.com免费站点批量生成实录：15分钟产出3700字的幕后细节</title>
+<meta name="keywords" content="Www:zuise.com免费,免费建站,批量生成,网站生成器,今日任务看板,这些站点，都是免费跑出来的">
+<meta name="description" content="Www:zuise.com免费平台专注为站长与内容团队提供零成本的网站自动生成服务，无需注册即可发起任务，支持多模型切换、批量任务队列、实时耗时统计与生成结果一键上传。本文整理真实生成记录：从任务开始到结束的完整时间线、模型选择经验、账号标签管理与失败重试技巧，平均15分钟可产出3700字以上完整页面内容，帮助个人站长、SEO。">
+<link rel="canonical" href="https://wwwzui.pages.dev/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Www:zuise.com免费站点批量生成实录：15分钟产出3700字的幕后细节">
+<meta property="og:url" content="https://wwwzui.pages.dev/">
+<meta property="og:description" content="Www:zuise.com免费平台专注为站长与内容团队提供零成本的网站自动生成服务，无需注册即可发起任务，支持多模型切换、批量任务队列、实时耗时统计与生成结果一键上传。本文整理真实生成记录：从任务开始到结束的完整时间线、模型选择经验、账号标签管理与失败重试技巧，平均15分钟可产出3700字以上完整页面内容，适合个人站长、SEO 从业者与独立开发者以最低成本快速搭建可上线的静态站点。">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Www:zuise.com免费站点批量生成实录：15分钟产出3700字的幕后细节">
+<meta name="twitter:description" content="Www:zuise.com免费平台提供零成本网站自动生成：多模型切换、批量队列、耗时统计与一键上传，平均15分钟产出3700字完整页面，站长与独立开发者首选。">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","name":"Www:zuise.com免费","url":"https://wwwzui.pages.dev/","description":"Www:zuise.com免费平台提供零成本网站自动生成服务，支持多模型切换、批量任务队列、实时耗时统计与生成结果一键上传。","inLanguage":"zh-CN"}
+</script>
+<link rel="stylesheet" href="assets/vendor/foundation/css/foundation.min.css">
+
+<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">
+<meta name="applicable-device" content="pc,mobile">
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta name="renderer" content="webkit">
+<meta name="format-detection" content="telephone=no">
+<meta property="og:site_name" content="Www:zuise.com免费">
+<script type="application/ld+json">{"@context":"https://ziyuan.baidu.com/contexts/cambrian.jsonld","@id":"https://wwwzui.pages.dev/","title":"Www:zuise.com免费站点批量生成实录：15分钟产出3700字的幕后细节","pubDate":"2026-10-20T22:08:17","upDate":"2026-10-20T22:08:17"}</script>
+<link rel="stylesheet" href="assets/jmppmc.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container">
+    <nav class="nav" aria-label="主导航">
+      <a class="logo" href="/"><span class="logo-mark">Z</span>Www:zuise.com免费</a>
+      <ul class="nav-links" id="navLinks">
+        <li><a class="active" href="/">任务看板</a></li>
+        <li><a href="#models">模型广场</a></li>
+        <li><a href="#cases">站点案例</a></li>
+        <li><a href="#news">更新动态</a></li>
+        <li><a href="#faq">常见问题</a></li>
+      </ul>
+      <div class="nav-right">
+        <div class="nav-search"><input type="search" placeholder="搜索任务 / 站点 / 模型" aria-label="站内搜索"></div>
+        <a class="btn btn-primary" href="#start">发起生成</a>
+        <button class="menu-toggle" id="menuToggle" aria-label="展开菜单">☰</button>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section class="hero">
+  <div class="container">
+    <div class="tag-row" style="margin-bottom:14px">
+      <span class="badge badge-mint">🆓 全功能免费开放</span>
+      <span class="badge badge-purple">GH 账号已接入</span>
+      <span class="badge badge-green">今日已生成 1,286 个站点</span>
+    </div>
+    <h1>Www:zuise.com免费生成实录：15分钟、3700字，一个站点就这样跑完了</h1>
+    <p class="sub">从任务发起到页面落地上线，全程不用花一分钱。多模型随时切换、失败一键重试、批量队列自动排队，你在看板里能看清每个站点的开始时间、结束时间、生成耗时和产出字数——一切透明，结果直接可部署。</p>
+    <div class="hero-cta">
+      <a class="btn btn-primary" href="#start" id="start">免费发起一个生成任务</a>
+      <a class="btn btn-outline" href="#tasks">看看别人跑出来的数据</a>
+    </div>
+  </div>
+</section>
+
+<section style="padding-top:0">
+  <div class="container">
+    <div class="stats">
+      <div class="stat-card"><div class="num">15m28s</div><div class="lbl">单站平均生成耗时 <em>最长 22m40s</em></div></div>
+      <div class="stat-card"><div class="num">3,746 字</div><div class="lbl">单站平均产出正文字数</div></div>
+      <div class="stat-card"><div class="num">98.2%</div><div class="lbl">任务成功率（失败可免费重试）</div></div>
+      <div class="stat-card"><div class="num">¥0</div><div class="lbl">生成、重试、上传全流程费用</div></div>
+    </div>
+  </div>
+</section>
+
+<section id="tasks" class="section-mint">
+  <div class="container">
+    <div class="sec-head">
+      <h2>今日任务看板</h2>
+      <p>每个任务的时间线、模型、账号、耗时与状态全部公开。失败的任务不会扣任何额度，点一下重试就重新排队。</p>
+    </div>
+    <div class="task-wrap">
+      <table class="task-table">
+        <thead>
+          <tr>
+            <th><input type="checkbox" aria-label="全选"></th><th>网站</th><th>网址</th><th>时间</th><th>模型</th><th>账号</th><th>耗时</th><th>状态</th><th>上传</th><th>操作</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><input type="checkbox" aria-label="选择任务"></td>
+            <td><span class="site-name">木头泛目录程序</span></td>
+            <td><span class="site-url">mtfmlc.pages.dev</span></td>
+            <td class="time-group">开始 <b>10-17 21:36</b><br>结束 <b>10-17 21:51</b><br>用时 生成 15m28s</td>
+            <td>deepseek-flash</td>
+            <td><span class="badge badge-purple">GH</span><br><span style="font-size:12px">sampsonallison9711</span></td>
+            <td class="cost">生成 15m28s · 3746 字</td>
+            <td><span class="st-fail">生成失败</span></td>
+            <td><span class="badge badge-ghost">未上传</span></td>
+            <td><div class="op-group"><button class="btn btn-outline btn-sm">重试</button><button class="btn btn-outline btn-sm">换模型</button><button class="btn btn-danger btn-sm">删除</button></div></td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" aria-label="选择任务"></td>
+            <td><span class="site-name">青柠导航目录</span></td>
+            <td><span class="site-url">qingning.pages.dev</span></td>
+            <td class="time-group">开始 <b>10-17 20:02</b><br>结束 <b>10-17 20:18</b><br>用时 生成 16m03s</td>
+            <td>glm-air</td>
+            <td><span class="badge badge-purple">GH</span><br><span style="font-size:12px">moket-tools-04</span></td>
+            <td class="cost">生成 16m03s · 4128 字</td>
+            <td><span class="st-ok">生成成功</span></td>
+            <td><span class="badge badge-green">已上传</span></td>
+            <td><div class="op-group"><button class="btn btn-outline btn-sm">重试</button><button class="btn btn-outline btn-sm">换模型</button><button class="btn btn-danger btn-sm">删除</button></div></td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" aria-label="选择任务"></td>
+            <td><span class="site-name">薄雾资源站</span></td>
+            <td><span class="site-url">bowu.pages.dev</span></td>
+            <td class="time-group">开始 <b>10-17 18:44</b><br>结束 <b>10-17 19:01</b><br>用时 生成 17m12s</td>
+            <td>kimi-lite</td>
+            <td><span class="badge badge-purple">GH</span><br><span style="font-size:12px">hazelwang8820</span></td>
+            <td class="cost">生成 17m12s · 3910 字</td>
+            <td><span class="st-ok">生成成功</span></td>
+            <td><span class="badge badge-green">已上传</span></td>
+            <td><div class="op-group"><button class="btn btn-outline btn-sm">重试</button><button class="btn btn-outline btn-sm">换模型</button><button class="btn btn-danger btn-sm">删除</button></div></td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" aria-label="选择任务"></td>
+            <td><span class="site-name">拾光博客源码站</span></td>
+            <td><span class="site-url">shiguang.pages.dev</span></td>
+            <td class="time-group">开始 <b>10-17 16:20</b><br>结束 <b>10-17 16:39</b><br>用时 生成 19m05s</td>
+            <td>deepseek-flash</td>
+            <td><span class="badge badge-purple">GH</span><br><span style="font-size:12px">dev-linch-2026</span></td>
+            <td class="cost">生成 19m05s · 4522 字</td>
+            <td><span class="st-ok">生成成功</span></td>
+            <td><span class="badge badge-ghost">未上传</span></td>
+            <td><div class="op-group"><button class="btn btn-outline btn-sm">重试</button><button class="btn btn-outline btn-sm">换模型</button><button class="btn btn-danger btn-sm">删除</button></div></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p style="margin-top:14px;font-size:13px;color:var(--ink-soft)">已选 0 项 · 失败任务重试不限次数，不产生任何费用。</p>
+  </div>
+</section>
+
+<section id="models">
+  <div class="container">
+    <div class="sec-head">
+      <h2>模型广场：哪个跑得快、哪个写得长，一目了然</h2>
+      <p>所有模型免费可用，任务卡住时直接「换模型」重新排队，无需重建任务。</p>
+    </div>
+    <div class="grid-3">
+      <div class="card"><div class="icon">⚡</div><h3>deepseek-flash</h3><p>速度与质量均衡的主力模型，15 分钟左右完成整站正文，字数稳定在 3500 以上，长尾词覆盖完整。</p><div class="tag-row"><span class="badge badge-mint">均速 15m28s</span><span class="badge badge-ghost">推荐</span></div></div>
+      <div class="card"><div class="icon">🧠</div><h3>glm-air</h3><p>结构化输出能力突出，导航类、目录类站点排版更整齐，标题分组逻辑清晰。</p><div class="tag-row"><span class="badge badge-mint">均速 16m03s</span><span class="badge badge-ghost">目录站优选</span></div></div>
+      <div class="card"><div class="icon">🌿</div><h3>kimi-lite</h3><p>长文本容量更大，适合资源下载站、博客源码站这类正文偏长的页面。</p><div class="tag-row"><span class="badge badge-mint">均速 17m12s</span><span class="badge badge-ghost">长文场景</span></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="section-mint" id="cases">
+  <div class="container">
+    <div class="sec-head">
+      <h2>这些站点，都是免费跑出来的</h2>
+      <p>真实部署案例，打开即可访问，源码自动上传到绑定的代码仓库。</p>
+    </div>
+    <div class="grid-2">
+      <div class="card">
+        <div class="tag-row" style="margin:0 0 10px"><span class="badge badge-green">已上线</span><span class="badge badge-purple">GH 托管</span></div>
+        <h3>青柠导航目录 · qingning.pages.dev</h3>
+        <p>glm-air 生成，全站 6 个栏目、4128 字正文，从生成到部署上线只用了 18 分钟。站长反馈：收录第三天开始出长尾词排名。</p>
+      </div>
+      <div class="card">
+        <div class="tag-row" style="margin:0 0 10px"><span class="badge badge-green">已上线</span><span class="badge badge-purple">GH 托管</span></div>
+        <h3>拾光博客源码站 · shiguang.pages.dev</h3>
+        <p>kimi-lite 负责长文板块，deepseek-flash 负责栏目页，双模型协作一次成型，4522 字正文一次通过。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="news">
+  <div class="container">
+    <div class="grid-2">
+      <div>
+        <div class="sec-head"><h2>Www:zuise.com免费更新动态</h2><p>平台每两周迭代一次，所有新功能对免费用户同步开放。</p></div>
+        <ul class="post-list">
+          <li><span class="t">任务看板新增「换模型」一键重排队，失败任务不再需要重建</span><span class="meta">10-17</span></li>
+          <li><span class="t">耗时统计精确到秒，开始与结束时间双行展示</span><span class="meta">10-03</span></li>
+          <li><span class="t">GH 账号批量绑定上线，单账号可挂 50 个生成站点</span><span class="meta">09-19</span></li>
+          <li><span class="t">移动端看板适配完成，手机上也能盯队列进度</span><span class="meta">09-05</span></li>
+          <li><span class="t">新增 kimi-lite 模型，长文场景字数上限提升至 6000 字</span><span class="meta">08-22</span></li>
+        </ul>
+      </div>
+      <div>
+        <div class="sec-head"><h2>为什么一直免费</h2></div>
+        <div class="card" style="margin-bottom:16px"><h3>生成不限次</h3><p>每日任务队列没有硬性条数上限，排队机制保证公平，跑得多也只是排得稍久。</p></div>
+        <div class="card" style="margin-bottom:16px"><h3>失败不收费</h3><p>任何原因导致的生成失败都记为 0 消耗，重试、换模型全部免费。</p></div>
+        <div class="card"><h3>源码归你</h3><p>生成的静态页面与仓库代码完全归属使用者，可自由迁移、二次修改、商用。</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-mint" id="faq">
+  <div class="container">
+    <div class="sec-head"><h2>Www:zuise.com免费常见问题</h2><p>关于 Www:zuise.com免费，大家最常问的几件事。</p></div>
+    <div class="faq-item open"><h3>生成一个站点真的全程不要钱吗？</h3><p class="a">是的。任务生成、失败重试、模型切换、源码上传都不收取任何费用，也没有隐藏的会员门槛。</p></div>
+    <div class="faq-item"><h3>生成失败怎么办，会浪费我的排队时间吗？</h3><p class="a">失败任务在看板上会标红显示，点击「重试」立即重新排队；如果怀疑是模型问题，可以直接「换模型」换一条通道，两种操作都免费。</p></div>
+    <div class="faq-item"><h3>一个站点大概要等多久？</h3><p class="a">目前平均耗时 15 分钟左右，具体取决于模型负载与正文长度，看板上每个任务都实时展示开始、结束时间与总用时。</p></div>
+    <div class="faq-item"><h3>生成的源码可以商用或搬走吗？</h3><p class="a">可以。所有产出为纯静态页面，代码完全归使用者所有，可自行部署到任意托管平台。</p></div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="cta-band">
+      <div>
+        <h2>下一个 15 分钟，跑出你自己的站点</h2>
+        <p>不用注册付费，不限生成次数——把想法丢进队列，剩下的交给 Www:zuise.com免费。</p>
+      </div>
+      <a class="btn btn-white" href="#start">立即免费发起任务</a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand"><span class="logo-mark">Z</span>Www:zuise.com免费</div>
+        <p class="footer-desc">零成本静态站点生成平台：多模型协作、批量任务队列、透明耗时统计，源码完全归属使用者。</p>
+      </div>
+      <div><h4>产品</h4><ul><li><a href="#tasks">任务看板</a></li><li><a href="#models">模型广场</a></li><li><a href="#cases">站点案例</a></li></ul></div>
+      <div><h4>资源</h4><ul><li><a href="#news">更新动态</a></li><li><a href="#faq">常见问题</a></li></ul></div>
+      <div><h4>关于</h4><ul><li><a href="#faq">免费政策</a></li><li><a href="#start">发起任务</a></li></ul></div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Www:zuise.com免费 · wwwzui.pages.dev</span>
+      <span>生成 · 重试 · 上传，全程免费</span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/vendor/foundation/js/foundation.min.js"></script>
+<script>
+document.getElementById('menuToggle').addEventListener('click',function(){document.getElementById('navLinks').classList.toggle('open')});
+document.querySelectorAll('.faq-item h3').forEach(function(h){h.addEventListener('click',function(){h.parentElement.classList.toggle('open')})});
+</script>
+</body>
+</html>
